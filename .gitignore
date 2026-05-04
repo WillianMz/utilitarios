@@ -1,0 +1,87 @@
+# =========================
+# Geral
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# =========================
+# C# / .NET
+# =========================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Build
+*.dll
+*.exe
+*.pdb
+
+# =========================
+# JavaScript / Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Env
+.env
+.env.*
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Testing / coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# =========================
+# Arquivos de IDE / editor
+# =========================
+*.code-workspace
+
+# =========================
+# Sistema operacional
+# =========================
+Icon?
+ehthumbs.db
