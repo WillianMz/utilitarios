@@ -5,12 +5,13 @@ import yt_dlp
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-if getattr(sys, 'frozen', False):
+if getattr(sys, "frozen", False):
     base_path = sys._MEIPASS
 else:
-    base_path = os.path.abspath(".")
+    base_path = os.path.dirname(os.path.abspath(__file__))
 
-ffmpeg_path = os.path.join(base_path, "ffmpeg", "bin")
+ffmpeg_path = os.path.join(base_path, "ffmpeg")
+
 
 def format_tempo(segundos):
     if segundos is None:
@@ -76,7 +77,7 @@ def iniciar_download():
 
 # GUI
 janela = tk.Tk()
-janela.title("YouTube MP3 Downloader")
+janela.title("WILLIAN YouTube MP3 Downloader")
 janela.geometry("470x240")
 janela.resizable(False, False)
 
@@ -93,5 +94,16 @@ progress_bar.pack(pady=5)
 
 status_label = tk.Label(janela, text="", font=("Arial", 10))
 status_label.pack(pady=5)
+
+linha = ttk.Separator(janela, orient="horizontal")
+linha.pack(side="bottom", fill="x", pady=3)
+
+rodape = tk.Label(
+    janela,
+    text="© 2026 Desenvolvido por WillianMz",
+    font=("Arial", 8),
+    fg="#666"
+)
+rodape.pack(side="bottom", pady=3)
 
 janela.mainloop()

@@ -34,6 +34,11 @@ packages/
 *.exe
 *.pdb
 
+# Permitir os executáveis do FFmpeg
+!ffmpeg/
+!ffmpeg/ffmpeg.exe
+!ffmpeg/ffprobe.exe
+
 # =========================
 # JavaScript / Node.js
 # =========================

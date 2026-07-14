@@ -1,3 +1,0 @@
-
-Para gerar executável do programa:
-pyinstaller.exe --onefile --windowed --add-binary "ffmpeg;ffmpeg" baixa.py
