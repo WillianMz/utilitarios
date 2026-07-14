@@ -34,10 +34,9 @@ packages/
 *.exe
 *.pdb
 
-# Permitir os executáveis do FFmpeg
-!ffmpeg/
-!ffmpeg/ffmpeg.exe
-!ffmpeg/ffprobe.exe
+# Permitir FFmpeg do projeto baixa-musica
+!baixa-musica/ffmpeg/
+!baixa-musica/ffmpeg/**
 
 # =========================
 # JavaScript / Node.js
