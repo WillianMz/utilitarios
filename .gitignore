@@ -34,9 +34,6 @@ packages/
 *.exe
 *.pdb
 
-# Permitir FFmpeg do projeto baixa-musica
-!baixa-musica/ffmpeg/
-!baixa-musica/ffmpeg/**
 
 # =========================
 # JavaScript / Node.js
